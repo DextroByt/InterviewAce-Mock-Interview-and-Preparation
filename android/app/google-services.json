@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "494551279960",
+    "firebase_url": "https://interviewace-ffd61-default-rtdb.firebaseio.com",
+    "project_id": "interviewace-ffd61",
+    "storage_bucket": "interviewace-ffd61.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494551279960:android:2c168dddb545320b2c9d2d",
+        "android_client_info": {
+          "package_name": "com.example.interviewace"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDaOCAgjR1LTebD3c1H0iC-g22rYurvsA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

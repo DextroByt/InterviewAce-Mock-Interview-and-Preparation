@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Theme applied to the Android Window while the process is starting when the OS's Dark Mode setting is on -->
+    <style name="LaunchTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <!-- This is a custom theme for the splash screen. -->
+        <!-- Set the background drawable for the splash screen. -->
+        <item name="android:windowBackground">@drawable/launch_background</item>
+        <!-- Optional: set status bar color to match your app's dark theme -->
+        <item name="android:statusBarColor">@android:color/black</item>
+        <!-- Optional: set navigation bar color if your app uses it -->
+        <item name="android:navigationBarColor">@android:color/black</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+    </style>
+    <!-- Theme applied to the Android Window as soon as the Flutter UI is rendered.
+         This is the theme your app will use for its main UI. -->
+    <style name="NormalTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <!-- Optional: set status bar color to match your app's dark theme -->
+        <item name="android:statusBarColor">@android:color/black</item>
+        <!-- Optional: set navigation bar color -->
+        <item name="android:navigationBarColor">@android:color/black</item>
+    </style>
+</resources>
