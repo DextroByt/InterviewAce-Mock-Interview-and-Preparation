@@ -5,8 +5,8 @@
 class AppConstants {
   // --- Gemini API ---
   static const String geminiApiBaseUrl = '';
-  static const String geminiApiKey = ''; // Leave this empty. Canvas will inject it at runtime.
-  static const String geminiModel = 'gemini-2.0-flash'; 
+  static const String geminiApiKey = '';
+  static const String geminiModel = 'gemini-2.5-flash'; 
   // --- ElevenLabs TTS API ---
   // IMPORTANT: Replace with your actual ElevenLabs API key.
   static const String elevenLabsApiKey = "";
